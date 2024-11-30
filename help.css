@@ -1,0 +1,9 @@
+body {
+    scroll-behavior: smooth;
+  }
+  
+  #backToTop {
+    display: none;
+    z-index: 1000;
+  }
+  

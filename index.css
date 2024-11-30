@@ -1,0 +1,49 @@
+.hero {
+    background: linear-gradient(to right, #007bff, #6610f2);
+    color: white;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .carousel-inner {
+    background-color: #f8f9fa; /* Light gray background for readability */
+    padding: 20px; /* Padding around the text */
+    border-radius: 10px; /* Smooth rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .carousel-item {
+    text-align: center; /* Center align text */
+    font-family: 'Arial', sans-serif; /* Clean font style */
+    font-size: 1rem; /* Standard readable size */
+    color: #333; /* Dark gray text */
+    padding: 20px; /* Space around the content */
+  }
+  
+  .carousel-item p {
+    margin: 0 auto;
+    max-width: 700px; /* Restrict text width for better readability */
+    line-height: 1.6; /* Improve text spacing */
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: #007bff; /* Blue indicators */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; /* Circular indicators */
+  }
+  
+  .carousel-indicators .active {
+    background-color: #0056b3; /* Darker blue for active indicator */
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-item p {
+      font-size: 0.9rem; /* Slightly smaller font for smaller devices */
+      padding: 10px;
+    }
+  }
+  
+  
